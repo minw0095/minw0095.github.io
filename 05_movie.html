@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+      div{
+        font-size: 2rem;
+        font-family: "Nanum Pen Script"
+      }
+
+      h5{
+        font-size: 3rem;
+      }
+
+    </style>
+</head>
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+
+ 
+ <!-- Navbar -->
+ <nav class="navbar navbar-expand-lg bg-danger">
+    <div class="container-fluid">
+        <img src="./images/logo.png" alt="" width="80" height="80" class="d-inline-block align-text-top">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <p class="navbar-toggler-icon"></p>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="./02_home.html">Home</a>
+          <a class="nav-link" href="./03_community.html">Community</a>
+          <a class="nav-link" data-bs-toggle="modal" href="#exampleModal">Log In</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- background -->
+  <div class="movie">
+    <div class="container-fluid py-5">
+        <div class="row row-cols-1">
+            <div class="card m-0 p-0 col-2 col-lg-2 card-size mx-3" >
+                <img class="card-img-top photo" src="./images/movie1.jpg"  alt="...">
+                <div class="card-body m-0 p-0"> 
+                  <a href="#" class="btn btn-primary button-size p-0">보러가기</a>
+                </div>
+            </div>
+            <div class="text-white col-8 col-lg-8 ">
+                <h1 class="text-white  ">쇼생크 탈출</h1>
+                <h6> 1995/01/28 드라마.범죄 2h 22m</h6>
+                <h3>두려움은 너를 죄수로 가두고 희망은 너를 자유롭게 하리라</h3>
+                <h5 class="fw-bloder">개요</h5>
+                <div>
+                    <h4>촉망받는 은행 간부 앤디 듀프레인은 아내와 그녀의 정부를 살해했다는 누명을 쓴다. 주변의 증언과 살해 현장의 그럴듯한 증거들로 그는 종신형을 선고받고 악질범들만 수용한다는 지옥같은 교도소 쇼생크로 향한다. 인간 말종 쓰레기들만 모인 그곳에서 그는 이루 말할 수 없는 억압과 짐승보다 못한 취급을 당한다. 그러던 어느 날, 간수의 세금을 면제받게 해 준 덕분에 그는 일약 교도소의 비공식 회계사로 일하게 된다. 그 와중에 교도소 소장은 죄수들을 이리저리 부리면서 검은 돈을 긁어 모으고 앤디는 이 돈을 세탁하여 불려주면서 그의 돈을 관리하는데...</h4>
+                </div>
+            
+                </div>
+        </div>
+    </div>
+  </div>
+   
+  <div class="container text-black">
+      <h3 class="p-4 fw-bolder"> 주요 출연진</h3>
+      <div class="container">
+          <div class="row ">
+              <div class="col-2">
+                  <div class="card">
+                      <img src="./cast/bob.jfif" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <p class="text-center card-text">bob</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-2">
+                  <div class="card">
+                      <img src="./cast/gil.jfif" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <p class="text-center card-text">gil</p>
+                      </div>
+                  </div>
+              </div>
+              
+              <div class="col-2">
+                  <div class="card">
+                      <img src="./cast/Tim.jfif" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <p class="text-center card-text">Tim</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-2">
+                  <div class="card">
+                      <img src="./cast/morgan.jfif" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <p class="text-center card-text">morgan</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-2">
+                  <div class="card">
+                      <img src="./cast/willam.jfif" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <p class="text-center card-text">willam</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-2">
+                  <div class="card">
+                      <img src="./cast/clancy.jfif" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <p class="text-center card-text">bob</p>
+                      </div>
+                  </div>
+              </div>
+              
+          </div>
+
+      </div>
+  </div>
+
+  <!-- 평점 -->
+  <div class="container my-5">
+    <h1> 유저 평점</h1>
+    <hr>
+    <div class="border border-dark rounded-pill my-3">
+      <p class="mx-5"> <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i> </p>
+      <p class="mx-5"> 처음에는 무슨 쇼인가 했습니다.... 하지만.... 극적인 탈출... 감동받았습니다... </p>
+      <p class="mx-5"> 문경욱 </p>
+    </div>
+    <div class="border border-dark rounded-pill my-3">
+      <p class="mx-5"> <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i> </p>
+      <p class="mx-5"> 나와 똑같은 년도에 태어난 영화지만 지금봐도 띵작입니다 </p>
+      <p class="mx-5"> 강민우 </p>
+    </div>
+  </div>
+  
+    
+
+
+  <!-- footer -->
+  <footer class="bg-dark text-light p-4 ">
+    <p class="text-center text-center m-0">PJT WEB_02 KMW & MGU</p>
+  </footer>
+</body>
+</html>

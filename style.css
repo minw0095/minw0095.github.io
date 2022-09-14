@@ -1,0 +1,36 @@
+.movie {
+    background:url("./images/05_background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 600px;
+    }
+
+.card-size{
+    width: 15rem;
+    height: 25rem;
+    border: 0;
+}
+
+.button-size{
+    width: 100%;
+    height: 100%;
+}
+
+
+.photo{
+    width: 100%;
+    height: auto;
+}
+
+.overflow-left{
+    width:200px;
+    height:500px;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.star-color{
+    color:yellow
+}
